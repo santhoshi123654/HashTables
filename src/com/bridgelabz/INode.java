@@ -1,6 +1,7 @@
 package com.bridgelabz;
 
-public interface INode<K> {
+
+public interface INode<K>{
 	
 	K getKey();
 
@@ -10,6 +11,4 @@ public interface INode<K> {
 
 	INode<K> getNext();
 
-	
-	
 }
